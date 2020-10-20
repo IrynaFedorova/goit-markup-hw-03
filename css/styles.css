@@ -1,0 +1,231 @@
+:root{
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+    --primary-background-color:#E5E5E5;
+}
+
+
+.page{
+background-color: #E5E5E5;
+color: var(--primary-text-color);
+font-family: Roboto, sans-serif;
+}
+
+.h1,h2,h3,h4,h5,h6{
+    font-family: Roboto, sans-serif;
+    color: #212121;
+}
+
+.logo{
+    color: var(--accent-color) ;
+    font-family: Raleway, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 26px;
+    line-height: 1,19px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    
+}
+
+.logo-footer {
+    color: white;
+    
+}
+
+/*.logo:hover{???}*/
+
+.accent{
+color: black;
+}
+ul{
+    list-style: none ;
+}
+/* .list{list-style: none ;} для отдельных элементов*/
+
+
+/*.site-nav*/
+.site-nav-list a{
+    color: var(--title-text-color);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14px;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+}
+.site-nav-list .a:hover, 
+.site-nav-list .a:focus{
+    color: var(--accent-color);
+}
+
+.site-nav-list .a .current{
+    color:var(--accent-color);
+
+}
+
+.site-nav-list-address a{
+    color: #757575;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14px;
+    text-decoration: none;
+}
+
+.site-nav-list-address .a:hover, 
+.site-nav-list-address .a:focus{
+    color: var(--accent-color);
+}
+
+.site-nav-list-address .a .current{
+    color:var(--accent-color);
+}
+
+.color-page{
+    color: #2196F3;
+}
+
+.section-title{
+    color:var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,7px;
+    letter-spacing: 0.03em;
+}
+
+.section-paragraph{
+color:var(--title-text-color);
+font-weight: 700;
+font-size: 18px;
+line-height: 2px;
+letter-spacing: 0.06em;
+}
+
+.paragraph{
+font-weight: 400;
+font-size: 14px;
+line-height: 1,7px;
+}
+
+.hero {
+background-color: #2F303A;
+}
+
+.hero-name{
+    color: #FFFFFF;
+    ;
+}
+
+.hero-title{
+    color:var(--title-text-color);
+    font-style: 400;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36px;
+    text-align: center;
+}
+ 
+/*buttun*/
+.button{
+    color: var(--accent-color);
+    font-family: inherit;
+    background-color: #E5E5E5;
+    font-size: 16px;
+    line-height: 1,8px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 12px 24px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.button-primary {
+    background-color: var(--accent-color);
+    color: #E5E5E5;
+    border-color: transparent;
+}
+
+/*.button-secondary{
+    background-color: #F5F4FA;
+    color: #212121;
+    border-color: transparent;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}*/
+
+.link:hover,
+.link:focus {
+    background-color: var(--accent-color);
+}
+/*.button-secondary .a .current{
+    color:white;
+}*/
+
+.btn {
+webkit-appearance: none;
+moz-appearance: none;
+appearance: none;
+border: 0;
+border-radius: 0;
+background: #ccc;
+border-radius: 4px;
+background: #F5F4FA;
+color: #212121;
+padding: 8px 16px;
+font-size: 16px;
+font-family: Roboto, sans-serif;
+font-weight: 500;
+  }
+
+.btn:hover,
+.btn:focus {
+ /* border-color: currentColor;*/
+  background-color: var(--accent-color);
+  color: #ffffff;
+ border-color: transparent;
+  font-style: normal;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-decoration-color: #FFFFFF;
+}
+
+/*.btn:active{
+    transform: translateY(1px);
+    filter: saturate(150%);
+}*/
+
+.footer-background {
+    background-color: #2F303A;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /*text-align: left;*/
+    font-family: Roboto;
+    letter-spacing: 0.02em;
+
+   
+    
+}
+
+.footer-text-color{
+    color: #FFFFFF;
+}
+
+.footer-text-color-address{
+   color:hsla(0, 0%, 60%, 1)
+}
+
+
+/*шрифты страница портфолио и студия
+шапка веб студия - Raleway
+шапка и основное - Roboto
+футер- Roboto
+*/
