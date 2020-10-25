@@ -287,8 +287,8 @@ text-align: center;
     line-height: 24px;
     font-family: Roboto;
     letter-spacing: 0.02em; 
-    margin-top: 30px;
-    margin-bottom: 9px;
+    /*margin-top: 30px;
+    margin-bottom: 9px;*/
 }
 
 
@@ -296,11 +296,13 @@ text-align: center;
     width: 1230px;
     margin-left: 215px;
     margin-right: 215px;
-    margin-bottom: 20px;
-    /*padding-top: 60px;
+    margin-bottom: 9px;
+    padding-top: 60px;
+    line-height: 1.5;
     padding-right: auto;
-    padding-left: auto;*/
+    padding-left: auto;
 }
+
 
 .footer-text-color{
     color: #FFFFFF;
