@@ -133,7 +133,7 @@ address{
      display: inline-flex;
      align-items: center;
      /*margin-top: 32px;*/
-     margin-top: 34px;
+     padding-top: 34px;
 }
 
 .color-page{
@@ -162,6 +162,10 @@ line-height: 2px;
 letter-spacing: 0.06em;
 margin-top: 30px;
 margin-bottom: 20px;
+/*padding-right: 24px;*/
+border: 10px solid #ffffff;
+display: block;
+padding-right: 24px;
 }
 
 .paragraph{
@@ -184,6 +188,10 @@ margin-bottom: 94px;
 flex-wrap: wrap;
 width: 270px;
 text-align: left;
+margin-right: 20px;
+border: 10px solid #ffffff;
+display: block;
+padding-right: 24px;
 }
 
 .heading{
@@ -275,8 +283,11 @@ margin-bottom: 30px;*/
 }*/
 
 .btn-center{
-    margin-left: 280px;
-    margin-top: 94px;
+    /*margin-left: 280px;*/
+    margin: 0;
+    padding-bottom: 50px;
+    padding-top:93px;
+    text-align: center;
 }
 
 .btn {
@@ -372,6 +383,11 @@ html{
     /*display: inline-flex;*/
 }
 
+.section-container{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 94px;
+}
 
 /*.images{
     display: block;
@@ -393,21 +409,31 @@ align-items: center;
 }*/
 
 .flex-container {
-    /*width: 1230px;
-    padding-left: 15px;
+    width: 1230px;
+    /*padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;*/
     flex-wrap: wrap;
     display: flex;
-    justify-content: space-between;
-    margin: -15px;
+    padding-bottom:0;
+    margin-bottom: 94px;
+    margin-top: 0;
+    /*padding-right: 300px;*/
+    border: 1px solid #e5e5e5;
+    /*justify-content: space-between;*/
+    /*margin: -15px*/
 }
 
 .flex-element{
 width: calc(100%:60)/3);
 /*margin:o auto;*/
-padding-top: 50px;
+margin-top:30px;
+margin-right: auto;
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+height: 434px;
+box-sizing: border-box;
 }
  /*  margin-bottom: 30px;
 }
@@ -423,6 +449,7 @@ margin-bottom: 0;
 .portfolio-item:nth-child(3n){
     margin-right: 0;
 }
+
 
 /*.flex-section{
     display: flex;
@@ -445,6 +472,7 @@ margin-bottom: 0;
     width: calc(100%:90)/4);
     justify-content: space-between;
 }
+
 
 /*.work-section{
     margin-top: 50px;
@@ -495,7 +523,7 @@ margin-bottom: 0;
 }*/
 
 .comand{
-    width: 272px;
+    width: 271px;
     height: 368px;
     border: 1px solid #ECECEC;
     background-color: #ffffff;
