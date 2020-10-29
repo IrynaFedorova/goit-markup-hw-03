@@ -49,7 +49,7 @@ ul{
 
 /*.site-nav*/
 .site-nav-list {
-    display: flex;
+    display: inline-flex;
     margin-top: 32px;
 
 }
@@ -60,7 +60,7 @@ ul{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14px;
+    /*line-height: 1,14px;*/
     text-decoration: none;
     letter-spacing: 0.02em;
     margin-right:50px;
@@ -90,6 +90,7 @@ ul{
     margin-bottom: 32px;
 }
 
+
 .site-nav-list-address a{
     color: #757575;
     font-family: inherit;
@@ -113,7 +114,9 @@ ul{
 }
 
 .main-nav{
-     display: flex;
+     display: inline-flex;
+     margin-top: 32px;
+     margin-bottom: 32px;
 }
 
 .color-page{
@@ -326,8 +329,7 @@ html{
 
 .container{
     width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     /*padding-top: 24px;*/
     padding-right: 15px;
     padding-left: 15px;
@@ -380,7 +382,8 @@ align-items: center;
 
 .flex-element{
 width: calc(100%:60)/3);
-margin:15px;
+/*margin:o auto;*/
+padding-top: 50px;
 }
  /*  margin-bottom: 30px;
 }
