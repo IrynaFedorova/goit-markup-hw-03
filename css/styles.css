@@ -133,8 +133,8 @@ address{
 .main-nav{
      display: inline-flex;
      align-items: center;
-     /*margin-top: 32px;*/
-     padding-top: 34px;
+    /* margin-top: 32px;*/
+    /* padding-top: 34px;*/
 }
 
 .color-page{
@@ -147,8 +147,8 @@ address{
     font-size: 36px;
     line-height: 1,7px;
     letter-spacing: 0.03em;
-    margin-bottom:50px;
-    margin-top: 94px;
+    margin-top:94px;
+    margin-bottom: 50px;
     text-align: center;
 
    /* justify-content: space-between;*/
@@ -200,7 +200,7 @@ padding-right: 24px;
     font-size: 14px;
     line-height: 1,7px;
     margin-top: 4px;
-    margin-bottom: 94px;
+    /*margin-bottom: 94px;*/
     flex-wrap: wrap;
     width: 270px;
     text-align: left;
@@ -389,6 +389,11 @@ html{
     box-sizing: inherit;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+   }
+
 .container{
     width: 1170px;
     margin: 0 auto;
@@ -397,6 +402,15 @@ html{
     padding-left: 15px;
     /*border-block-color: var(--accent-color);*/
     /*display: inline-flex;*/
+}
+
+.header-container{
+    width: 1170px;
+    margin: 0 auto;
+    height: 80px;
+    padding-top: 0;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .section-container{
