@@ -240,6 +240,8 @@ background-color: #2F303A;
     margin-right: auto;
     outline: 1px solid #ECECEC ;}
 
+
+
 /*Portfolio*/
 
 .portfolio .filter {
@@ -254,7 +256,7 @@ background-color: #2F303A;
       display: inline;
   }
   .container.portfolio-padding {
-    padding-top: 94px;
+    padding-top: 100px;
     padding-bottom: 50px;
     text-align: center;
   }
@@ -284,7 +286,7 @@ background-color: #2F303A;
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
   .portfolio .content {
-    margin-top: 50px;
+    /*margin-top: 50px;*/
     display: flex;
     flex-wrap: wrap;
   }
@@ -331,18 +333,7 @@ background-color: #2F303A;
   
 
 
-
-
-
-
-
-
-
-
-/*.btn:active{
-    transform: translateY(1px);
-    filter: saturate(150%);
-}*/
+/*footer*/
 
 .footer-background {
     background-color: #2F303A;
