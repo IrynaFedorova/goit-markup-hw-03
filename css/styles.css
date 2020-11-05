@@ -151,18 +151,6 @@ address{
 
 /*paragraph*/
 
-.paragraph{
-font-weight: 400;
-font-size: 14px;
-line-height: 1,7px;
-margin-top: 4px;
-margin-bottom: 94px;
-flex-wrap: wrap;
-width: 270px;
-text-align: center;
-}
-
-
 .main-paragraph-h2{
     font-weight: 400;
     font-size: 14px;
@@ -444,9 +432,22 @@ html{
    padding-bottom: 94px;
 }
 
+
+/*team*/
+
 .section-team{
     background-color: #F5F4FA;
 }
+.images-team {
+    display: block;
+  }
+
+.list-section-team .item-img:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  .section-list > .list-description {
+    padding-bottom: 30px;}
 
 .wrapper {
     width: 1200px;
@@ -457,6 +458,52 @@ html{
    padding-top: 94px;
 }
 
+.section-title{
+    color:var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,7px;
+    letter-spacing: 0.03em;
+    padding-bottom: 50px;
+    text-align: center;
+ 
+}
+
+.section{
+    display: flex;
+    width: calc(100%-90px)/4);
+    justify-content: space-between;
+   padding-bottom: 94px;
+}
+
+.comand{
+    width: 271px;
+    height: 368px;
+    border: 1px solid #ECECEC;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
+.text-clas {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.paragraph{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,7px;
+    margin-top: 4px;
+    margin-bottom: 94px;
+    flex-wrap: wrap;
+    width: 270px;
+    text-align: center;
+    }
+
+    
+
 
 
 .primary-section{
@@ -466,20 +513,6 @@ html{
     padding-bottom: 94px;
 }
 
-
-.section{
-    display: flex;
-    width: calc(100%-90px)/4);
-    justify-content: space-between;
-    padding-bottom: 94px;
-}
-
-
-.text-clas {
-    margin-top: 30px;
-    margin-bottom: 10px;
-    text-align: center;
-}
 
 .text-footer{
     padding-bottom: 9px;
@@ -492,15 +525,6 @@ html{
     width: 1600px;
     outline: 1px solid #ECECEC ;}
 
-
-.comand{
-    width: 271px;
-    height: 368px;
-    border: 1px solid #ECECEC;
-    background-color: #ffffff;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
-}
 
 .examples{
     width: 372px;
